@@ -1,0 +1,40 @@
+.feature-section{
+    display: flex;
+    /* margin-bottom: 30px; */
+}
+.feature-details{
+    background-color: #212529;
+    color: white;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 50px;
+}
+.feature-img img{
+    height: 450px;
+}
+
+.ferute-text h1{
+    font-family: 'Marcellus', serif;
+}
+.ferute-text h6, p{
+    margin: 20px;
+    font-family: 'Karla', sans-serif;
+    color: lightslategray;
+}
+@media only screen and (max-width: 600px){
+    .feature-section{
+        flex-direction: column;
+    }
+    .feature-img img{
+        height: 300px;
+    }
+}
+@media only screen and (min-width: 600px ) and (max-width: 1024px){
+    .feature-section{
+        flex-direction: column;
+    }
+    .feature-img img{
+        height: 600px;
+    }
+}

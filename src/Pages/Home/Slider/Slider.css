@@ -1,0 +1,35 @@
+.slider-section{
+    background-color: #212529;
+    height: 650px;
+}
+.slide-details h3{
+    font-family: 'Marcellus', serif;
+    font-size: 40px ;
+}
+.slide-details p{
+    font-family: 'Karla', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(238, 236, 236);
+}
+.slid-btn{
+    background-color: lightsteelblue;
+    padding: 10px 20px;
+    border: 0px; 
+    font-size: 20px;
+    font-weight: 500;
+    /* color: white; */
+}
+.slid-btn:hover{
+    background-color: lightslategray;
+}
+@media only screen and (max-width: 600px){
+    .slider-section{
+        height: 180px;
+    }
+}
+@media only screen and (min-width: 600px ) and (max-width: 1024px){
+    .slider-section{
+        height:380px;
+    }
+}

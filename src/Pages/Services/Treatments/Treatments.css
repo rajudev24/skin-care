@@ -1,0 +1,92 @@
+.treatment-img img{
+    width: 100vw;
+}
+.treatments-title{
+    background-color: rgb(238, 233, 224);
+    
+}
+.treatments-details{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    font-family: 'Karla', sans-serif;
+    border-bottom: 2px solid lightgray;
+}
+.treatments-details h6, h2, p{
+    margin: 30px ;
+}
+.treatment-section{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: rgb(238, 233, 224);
+}
+.treatment-services{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 20px;  
+    grid-row-gap: 20px;
+}
+.treatment-service{
+    text-align: center;
+    padding: 20px;
+    transition: 1s ease-in-out;
+    border-radius: 10px;
+    border: 0 !important;
+    background-color: rgb(238, 233, 224) !important;
+}
+.card-title {
+    font-family: 'Marcellus', serif !important;
+    font-weight: 600 !important;
+}
+.treatment-service p{
+    font-family: 'Karla', sans-serif;
+    font-size: 17px;
+    color: rgb(24, 23, 23);
+}
+.treatment-service h5{
+    background-color: rgb(195, 208, 224);
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.treatment-service:hover{
+    /* box-shadow: 5px 5px 15px 5px lightgray; */
+    -moz-box-shadow:    3px 3px 5px 6px #ccc;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  box-shadow:         3px 3px 5px 6px #ccc;
+}
+
+@media only screen and (max-width: 600px){
+    .treatments-details{
+        width: 90%;
+    }
+
+    .treatment-services{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .treatments-details h6, h2, p{
+        margin: 0px ;
+    }
+    .treatment-service{
+        padding: 0px;
+    }
+}
+@media only screen and (min-width: 600px ) and (max-width: 1024px){
+    .treatments-details{
+        width: 80%;
+    }
+
+    .treatment-services{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .treatments-details h6, h2, p{
+        margin: 0px ;
+    }
+    .treatment-service{
+        padding: 0px;
+    }
+}

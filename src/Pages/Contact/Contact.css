@@ -1,0 +1,13 @@
+.contact-img img{
+    width: 100vw;
+}
+.contact-details h2{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.contact-details p{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 30px;
+}

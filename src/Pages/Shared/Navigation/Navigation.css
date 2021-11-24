@@ -1,0 +1,12 @@
+.navbar-brand{
+    font-size: 1.50rem !important;
+    font-family: 'Marcellus', serif;
+    font-weight: 500;
+}
+.navbar-collapse{
+    flex-grow: 0 !important;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: white !important;
+    font-family: 'Karla', sans-serif;
+}

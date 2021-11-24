@@ -1,0 +1,45 @@
+.about-section img{
+    width: 100vw;
+    
+}
+.owner-section{
+    text-align: center;
+    margin-top: 20px;
+}
+.section-title{
+    background-color: lightslategrey;
+    padding: 20px;
+    color: white;
+    text-align: center;
+   margin: 30px 70px;
+}
+.quote{
+    text-align: center;
+    background-color: whitesmoke;
+    width: 50%;
+    margin: 20px auto !important;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 30px;
+    border-radius: 5px;
+}
+.about-us p{
+    color: black;
+    margin: 0px 70px;
+font-family: 'Poppins', sans-serif;
+}
+
+@media only screen and (max-width: 600px){
+    .section-title{
+        margin: 30px 30px;
+    }
+    .quote{
+        width: 80%;
+    }
+    .about-us p{
+        text-align: justify;
+        text-justify: inter-word;
+        margin: 0px 40px;
+    
+    }
+}

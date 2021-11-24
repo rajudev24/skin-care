@@ -1,0 +1,67 @@
+.intro-section{
+    background-color: rgb(238, 233, 224);
+    text-align: center;
+    padding-top: 120px;
+}
+.intro-details{
+    padding-top: 190px;
+    padding-bottom: 80px;
+    width: 50%;
+    margin: 0 auto;
+}
+.intro-details h2{
+    color: lightslategrey;
+    font-family: 'Marcellus', serif;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.intro-details h1{
+    text-align: center;
+    font-family: 'Karla', sans-serif;
+    margin-bottom: 20px;
+}
+.intro-details p{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+}
+.intro-btn{
+   border: 0;
+   background-color: lightslategrey;
+   padding: 10px 20px;
+   color: white;
+   font-family: 'Karla', sans-serif;
+   font-weight: 500;
+}
+
+.intro-btn:hover{
+    background-color: lightsteelblue;
+    color: black;
+}
+/* For Mobiles  */
+@media only screen and (max-width: 600px){
+    .intro-section{
+        padding-top: 30px;
+    }
+    .intro-details{
+        padding-top: 90px;
+    }
+    .intro-details {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+/* For Tablets */
+@media only screen and (min-width: 600px ) and (max-width: 1024px){
+    .intro-section{
+        padding-top: 60px;
+    }
+    .intro-details{
+        padding-top: 90px;
+    }
+    .intro-details {
+        width: 70%;
+        margin: 0 auto;
+    }
+}

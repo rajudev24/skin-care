@@ -1,0 +1,27 @@
+.footer-section{
+    background-color: #212529;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.footer-details h1{
+    color: white;
+    font-family: 'Karla', sans-serif;
+}
+.follow{
+    text-align: center;
+}
+.follow h4{
+    color: white;
+    margin-bottom: 30px;
+
+}
+.follow a{
+    color: lightslategrey;
+}
+.copyright{
+    margin-top: 40px;
+    color: lightslategrey;
+}
